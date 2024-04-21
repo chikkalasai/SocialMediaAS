@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <style>
+        body {
+            background-color: #ffffff; /* White background */
+            font-family: Arial, sans-serif;
+        }
+
+
+        header {
+            background-color: #3498db; /* Blue color */
+            padding: 40px;
+            
+          }
+          
+          nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          
+          nav ul li {
+            display: inline;
+            margin-right: 10px;
+          }
+          
+          nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 70px;
+          }
+        h1{
+            color: blue;
+            border-bottom: 50px blue;
+            padding-bottom: 10px;
+            text-align: center;
+            font-size: 50px;
+            
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .info-box {
+            background-color: #3498db; /* Blue color */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .container1{
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+
+        }
+
+        .image-box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-box img {
+            width: 45%; /* Adjust width as needed */
+        }
+
+        .container3{
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+
+        }
+
+
+        .container2 {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .info-box {
+            background-color: #3498db; /* Blue color */
+            color: #ffffff; /* White text */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .image-box {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .image-box img {
+            width: 95%; /* Adjust width as needed */
+        }
+
+         
+
+        
+        
+        
+
+        
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>About Us</h1>
+        <div class="info-box">
+            <p>Welcome to our website! We are a company dedicated to providing quality services.
+                Social media sentiment analysis is the process of retrieving information about a consumer’s perception of a product, service or brand.
+
+If you want to know exactly how people feel about your business, sentiment analysis is the key. Specifically, social media sentiment analysis provides context for your customers’ conversations around the social space.
+
+Think of sentiment analysis as a subset of social listening. While businesses should obviously monitor their mentions, sentiment analysis digs into the positive, negative and neutral emotions surrounding those mentions.
+            </p>
+        </div>
+    </div>
+        <div class = "container1">
+            <h1 color:black>Why social media sentiment analysis matters</h1>
+
+            <div class="image-box">
+            <img src="{{ url_for('static', filename='logo.jpg') }}" alt="Image 1">
+            <img src="{{ url_for('static', filename='llll.png') }}" alt="Image 2">
+        </div>
+    </div>
+
+
+    <div class="container2"> 
+        <div class="info-box"> 
+            <p>        Unlock the essence of what people express about your brand or business across social platforms with social media sentiment analysis. It goes beyond mere tallies of mentions or comments, delving into the realm of emotions and opinions. By analyzing social sentiment, we gain valuable understanding to fortify our social media monitoring plan, enabling us to grasp how people perceive our products, services, and brand. It's akin to peering into the collective customer conversation, making sense of how people discuss your brand and whether their sentiments lean positive, negative, or neutral.
+
+                Types of Sentiments:
+                
+                When it comes to emotions, it can be quite complex and might not neatly fit into categories. However, we can broadly categorize sentiments. Whether it's a brand mention or a conversation, they usually carry a specific sentiment:
+                
+                Positive: fantastic, excellent, delightful, wow, impressive, enthusiastic
+                Negative: terrible, awful, horrible, frustrating, annoying, upsetting, ugh
+                Neutral: acceptable, average, okay, moderate, satisfactory, ordinary
+            </p>  
+                
+                
+                
+                
+                
+         </div>
+    </div>
+
+    <div class="container3">
+        <h1 color:black></h1>
+        
+        <div class="image-box">
+           
+            <img src="{{ url_for('static', filename='about2.png') }}" alt="Image 2">
+        </div>
+</body>
+</html>

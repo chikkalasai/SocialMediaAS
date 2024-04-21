@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact</title>
+</head>
+
+<style>
+   header {
+    background-color: #3498db; /* Blue color */
+    padding: 40px;
+}
+
+background-image: url('logo.jpg'); /* Replace 'background.jpg' with the path to your image */
+background-size: cover; /* Cover the entire background */
+background-position: center; /* Center the background image */
+background-repeat: no-repeat; /* Do not repeat the background image */
+}
+
+.content {
+text-align: center;
+padding: 50px;
+color: white; /* Text color for better contrast */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-link {
+    margin-bottom: 10px;
+}
+
+.contact-link a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    margin-right: 10px;
+}
+
+.contact-link img {
+    width: 30px;
+    height: 30px;
+}
+
+
+    
+    </style>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    body {
+       
+    
+
+        <div class="container">
+            <h1>Contact Us</h1>
+            <div class="contact-links">
+                <div class="contact-link">
+                    <a href="https://www.facebook.com/rankur/" target="_blank">
+                        <img src="{{ url_for('static', filename='fb.png') }}" alt="Facebook">
+                        Facebook
+                    </a>
+                </div>
+                <div class="contact-link">
+                    <a href="https://www.instagram.com/example" target="_blank">
+                        <img src="{{ url_for('static', filename='insta.png') }}" alt="Instagram">
+                        Instagram
+                    </a>
+                </div>
+                <div class="contact-link">
+                    <a href="https://wa.me/1234567890" target="_blank">
+                        <img src="{{ url_for('static', filename='wpp.png') }}" alt="WhatsApp">
+                        WhatsApp
+                    </a>
+                </div>
+                <div class="contact-link">
+                    <a href="https://www.linkedin.com/in/example" target="_blank">
+                        <img src="{{ url_for('static', filename='link.png') }}" alt="LinkedIn">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    }
+
+</body>
+</html>

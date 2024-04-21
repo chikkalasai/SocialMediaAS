@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title>Sentiment Analysis</title>
+    <style>
+        
+        body {
+            background-image: url('bg.jpg');
+            
+        }
+        header {
+            background-color: #3498db; /* Blue color */
+            padding: 40px;
+            
+          }
+          
+          nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+          }
+          
+          nav ul li {
+            display: inline;
+            margin-right: 10px;
+          }
+          
+          nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 70px;
+          }
+          
+          nav ul li a:hover {
+            background-color: black;
+            padding: 10px 20px;
+          }
+       
+        h2 {
+            color: blue;
+            border-bottom: 50px blue;
+            padding-bottom: 10px;
+            text-align: center;
+            font-size: 50px;
+            
+        }
+        form {
+            margin-top:100px ;
+            margin-right:700px;
+            margin-bottom:50px;
+            margin-left:470px
+        
+
+        }
+        textarea {
+            width: 600px;
+            height: 200px;
+        }
+        .predict-button {
+            font-size: 18px; /* Increase font size */
+            padding: 12px 24px; /* Increase padding to increase button size */
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px; /* Add margin to create space between textarea and button */
+        }
+        
+        .predict-button:hover {
+            background-color: #45a049; /* Darker green on hover */
+        }
+        
+        
+    </style>
+    
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    
+ 
+
+    <div class:"mine">   
+
+         <h2 id:"center">Sentiment Analysis</h2>
+
+         <form method="POST" enctype="multipart/form-data">
+             <textarea name="text" rows="4" cols="50" placeholder="Enter text for sentiment analysis"></textarea>
+            <div class:"subbo">
+              <button type="submit">Predict Sentiment</button>
+            </div>
+         </form>
+             
+     </div>
+
+
+    
+    
+      
+</body>
+
+   
+</html>
+
